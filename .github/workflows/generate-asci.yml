@@ -12,6 +12,8 @@ jobs:
       - name: Read file
         run: ls -ltra
       
-      - name: Install Cowsay Program
-        run: ./ascii-script.sh
+      - name: execute ascii shell script
+        run: |
+          chmod +x ascii-script.sh
+          ./ascii-script.sh
 
